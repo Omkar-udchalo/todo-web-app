@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.customInput {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.icon-write {
+    font-size: 40px;
+}
+
+.submit-todo {
+    height: 40px;
+    width: 120px;
+    border-radius: 9px;
+    border: none;
+    background-color: burlywood;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(45, 49, 53);
+}
+
+input {
+    font-size: 32px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+}
+
+input:focus {
+    outline: none;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
